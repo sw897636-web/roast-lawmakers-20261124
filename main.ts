@@ -11,7 +11,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // specific, unexpected detail, and the punch ("a JPEG of a fax") lands
 // on the last few words. One sentence, no internal periods.
 const ENTRY =
-  "The lawmaker writing the rules for crypto exchanges cannot convert her own press release to PDF, so her office faxes it to the intern, who photographs it, and the internet gets a JPEG of a fax.";
+  "The lawmaker regulating crypto can't export a PDF, so our new blockchain policy just dropped as a JPEG of a fax.";
 
 const outDir = "/output";
 mkdirSync(outDir, { recursive: true });
